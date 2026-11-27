@@ -1,0 +1,56 @@
+.Home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+    background-color: #f2f2f2;
+}
+
+.img {
+    width: 350px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    width: 500px;
+}
+
+.para {
+    font-size: 17px;
+    line-height: 1.7;
+    color: #333;
+    text-align: justify;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    outline: none;
+}
+
+ol {
+    margin-top: 15px;
+}
+
+ol li {
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    color: black;
+}
